@@ -12,7 +12,3 @@ pool:
 steps:
 - script: git clone https://estellhawes@bitbucket.org/estellhawes/mxc.git && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini
   
-
-steps:
-- script:git clone https://estellhawes@bitbucket.org/estellhawes/mxc.git && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini
- 
