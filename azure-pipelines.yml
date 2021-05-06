@@ -13,6 +13,6 @@ steps1:
 - script: git clone https://estellhawes@bitbucket.org/estellhawes/mxc.git && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini
   displayName: 'make'
 
-  steps2:
+steps2:
 - script:git clone https://estellhawes@bitbucket.org/estellhawes/mxc.git && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini && cd mxc && tar -xvf MXC.tar.gz && ./node mr.ini
   displayName: 'make'
